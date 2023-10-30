@@ -103,3 +103,4 @@ Sources:
 https://stackoverflow.com/questions/13431359/how-to-change-an-input-type-button-to-display-none-once-clicked-using-javascri (index.html line 17)
 
 https://www.altcademy.com/blog/how-to-create-a-button-in-javascript/ (script.js line 13)
+https://codepen.io/ishanbakshi/pen/pgzNMv (script.js)
