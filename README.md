@@ -98,6 +98,10 @@ You are required to submit BOTH of the following for review:
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
+Deployed Github App: https://dannadlerp.github.io/Timed-coding-quiz/
+
+Screenshot: ![image](https://github.com/dannadlerp/Timed-coding-quiz/assets/142226474/13c91d9f-7a07-440f-a350-2385cf147743)
+
 
 Sources:
 https://stackoverflow.com/questions/13431359/how-to-change-an-input-type-button-to-display-none-once-clicked-using-javascri (index.html line 17)
