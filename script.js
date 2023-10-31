@@ -15,6 +15,9 @@ function answerClicked() {
         document.getElementById("answer-button2").textContent = "Hyper Text Module Language";
         document.getElementById("answer-button3").textContent = "Hyper Test Modulation Linguistics";
         document.getElementById("answer-button4").textContent = "Does not mean anything";
+        if(answerButton2.onclick || answerButton3.onclick || answerButton4.onclick === !correct) {timerCount - 10}
+        else {correct, correctCount++}
+        console.log(`this is $(correct) $(correctCount) times`)
     }
     if(questionsAnswered === 2) {
         generateQuestion.innerHTML = "What letters are missing from 'J_v_ Scr_pt?"
@@ -52,18 +55,20 @@ function startQuiz() {
     mainTitle.style.display = "none";
 /* setInterval(timerdecrease, 1000) */
 
+var decideCorrectAnswer = function(correct) {
+    if(correct) {correctCount++}
+    else {timerCount - 10;}
+}
+
+
 var answerButton1 = document.createElement('button');
 answerButton1.textContent = "Document Object Model";
 answerButton1.classList.add("multiple-choice");
 answerButton1.style.marginTop = "50px";
 answerButton1.id = "answer-button1";
 answerButton1.onclick = answerClicked;
+console.log(correctCount)
 document.body.appendChild(answerButton1);
-
-/* var answerText1 = document.createElement('p');
-answerText1.innerHTML = "Document Object Model";
-document.body.appendChild(answerText1);
-answerText1.style.display = "inline"; */
 
 var answerButton2 = document.createElement('button');
 answerButton2.textContent = "Document Opposed Module";
@@ -71,11 +76,6 @@ answerButton2.classList.add("multiple-choice");
 answerButton2.id = "answer-button2";
 answerButton2.onclick = answerClicked;
 document.body.appendChild(answerButton2);
-
-/* var answerText2 = document.createElement('p');
-answerText2.innerHTML = "Document Opposed Module";
-document.body.appendChild(answerText2);
-answerText2.style.display = "inline"; */
 
 var answerButton3 = document.createElement('button');
 answerButton3.textContent = "Delayed Object Modulation";
